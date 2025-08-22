@@ -1,0 +1,10 @@
+# NetScope Ultimate - Minimal Requirements
+# Only external dependencies (standard library modules are built-in)
+
+# Core system utilities - required for network interface and process monitoring
+psutil>=5.8.0
+
+# HTTP client - required for public IP detection and external connectivity tests
+requests>=2.25.0
+
+

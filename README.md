@@ -7,7 +7,7 @@
 
 > A comprehensive unified network diagnostics, monitoring, and analysis tool that combines advanced features for network administrators, security professionals, and IT enthusiasts.
 
-![NetScope Ultimate Banner](https://via.placeholder.com/800x200/1e3a8a/ffffff?text=NetScope+Ultimate+v3.0)
+![NetScope Ultimate Banner](internet.ico)
 
 ## ✨ Features
 
@@ -52,8 +52,8 @@
 ### Option 2: Python Script
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/netscope-ultimate.git
-   cd netscope-ultimate
+   https://github.com/s3bu7i/NetScope.git
+   cd NetScope
    ```
 
 2. **Install dependencies:**
@@ -62,16 +62,16 @@
    ```
    Or let the script auto-install:
    ```bash
-   python netscope_ultimate.py
+   python NetScope.py
    ```
 
 3. **Run the tool:**
    ```bash
    # Linux/macOS (recommended with sudo for full features)
-   sudo python3 netscope_ultimate.py
+   sudo python3 NetScope.py
    
    # Windows (run as Administrator)
-   python netscope_ultimate.py
+   python NetScope.py
    ```
 
 ## 📋 Requirements
@@ -230,35 +230,6 @@ Results can be exported in JSON format including:
 - Network extension approval may be required
 - Terminal access permissions needed
 
-## 🛠️ Building from Source
-
-### Creating Executable
-To create your own executable using PyInstaller:
-
-```bash
-# Install PyInstaller
-pip install pyinstaller
-
-# Create executable
-pyinstaller --onefile --name "NetScope-Ultimate" --icon=icon.ico netscope_ultimate.py
-
-# The executable will be in the dist/ directory
-```
-
-### Development Setup
-```bash
-# Clone repository
-git clone https://github.com/yourusername/netscope-ultimate.git
-cd netscope-ultimate
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or
-venv\Scripts\activate     # Windows
-
-# Install development dependencies
-pip install -r requirements-dev.txt
 ```
 
 ## 📊 Performance Benchmarks
@@ -296,7 +267,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name** - *Initial work* - [@yourusername](https://github.com/yourusername)
+**s3bu7i** - *Initial work* - [@s3bu7i](https://github.com/s3bu7i)
 
 ## 🙏 Acknowledgments
 
