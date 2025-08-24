@@ -1,4 +1,4 @@
-# 🚀 NetScope Ultimate - Advanced Network Analysis & Monitoring Suite
+# 🚀 NetScope - Advanced Network Analysis & Monitoring Suite
 
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
@@ -7,7 +7,7 @@
 
 > A comprehensive unified network diagnostics, monitoring, and analysis tool that combines advanced features for network administrators, security professionals, and IT enthusiasts.
 
-![NetScope Ultimate Banner](internet.ico)
+![NetScope Banner](internet.ico)
 
 ## ✨ Features
 
@@ -45,7 +45,7 @@
 ## 🚀 Quick Start
 
 ### Option 1: Executable (Windows)
-1. Download the latest `NetScope-Ultimate.exe` from the [Releases](../../releases) page
+1. Download the latest `NetScope.exe` from the [Releases](./dist/NetScope.exe) page
 2. Run as Administrator for full functionality
 3. No installation required - portable executable
 
@@ -110,27 +110,6 @@ requests>=2.25.0
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
-### Common Use Cases
-
-#### 🔍 Network Troubleshooting
-1. Start with **Network Overview** to check basic connectivity
-2. Use **DNS Analysis** to verify DNS resolution issues
-3. Run **Network Performance Analysis** to identify bottlenecks
-4. Check **Interface Analysis** for hardware-specific problems
-
-#### 🛡️ Security Assessment
-1. Perform **Network Security Audit** for baseline security
-2. Use **Advanced Port Scanner** to check for open services
-3. Run **Network Device Discovery** to map network assets
-4. Monitor with **Real-time Traffic Monitor** for anomalies
-
-#### 📊 Performance Monitoring
-1. Use **Real-time Traffic Monitor** for live bandwidth usage
-2. Run **Network Performance Analysis** for comprehensive metrics
-3. Test specific connections with **Custom Network Tools**
-4. Export results for historical analysis
-
-## 🖼️ Screenshots
 
 ### Network Overview
 ```
@@ -175,29 +154,15 @@ Open ports on 192.168.1.1:
 #### Windows
 ```cmd
 # Run Command Prompt as Administrator
-python netscope_ultimate.py
+python netscope.py
 ```
 
 #### Linux/macOS
 ```bash
 # Use sudo for full system access
-sudo python3 netscope_ultimate.py
+sudo python3 netscope.py
 ```
 
-### Custom Network Scanning
-The tool supports various scanning modes:
-- **Quick Scan**: Ping-based host discovery
-- **Aggressive Scan**: Port scanning with OS detection
-- **Custom Port Ranges**: User-defined port ranges
-- **Service Detection**: Banner grabbing and service identification
-
-### Export Options
-Results can be exported in JSON format including:
-- System information
-- Network configuration
-- Scan results and history
-- Performance metrics
-- Traffic statistics
 
 ## 🚨 Important Notes
 
@@ -213,89 +178,3 @@ Results can be exported in JSON format including:
 - External connectivity required for public IP detection
 - Performance may vary on different network configurations
 
-### Platform-Specific Notes
-
-#### Windows
-- Run as Administrator for full WMI access
-- Windows Defender may flag network tools (false positive)
-- PowerShell execution policy may need adjustment
-
-#### Linux
-- Requires root for raw socket operations
-- Some distributions may need additional packages
-- Firewall rules may affect scanning capabilities
-
-#### macOS
-- System Integrity Protection may limit some features
-- Network extension approval may be required
-- Terminal access permissions needed
-
-```
-
-## 📊 Performance Benchmarks
-
-| Feature | Small Network (1-10 hosts) | Medium Network (11-50 hosts) | Large Network (51-254 hosts) |
-|---------|----------------------------|-------------------------------|------------------------------|
-| Quick Scan | 5-10 seconds | 15-30 seconds | 45-90 seconds |
-| Aggressive Scan | 30-60 seconds | 2-5 minutes | 10-20 minutes |
-| Port Scan (common) | 5-15 seconds | 15-30 seconds | 30-60 seconds |
-| Port Scan (extended) | 2-5 minutes | 5-15 minutes | 15-45 minutes |
-
-*Benchmarks may vary based on network conditions, hardware, and target responsiveness.*
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Areas
-- 🔧 New network diagnostic features
-- 🛡️ Enhanced security analysis
-- 📊 Additional export formats
-- 🎨 UI/UX improvements
-- 📱 Mobile platform support
-- 🐳 Docker containerization
-
-### Reporting Issues
-- Use the [GitHub Issues](../../issues) page
-- Include system information and error details
-- Provide steps to reproduce problems
-- Attach relevant log files or screenshots
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**s3bu7i** - *Initial work* - [@s3bu7i](https://github.com/s3bu7i)
-
-## 🙏 Acknowledgments
-
-- **psutil** library for system and process utilities
-- **requests** library for HTTP functionality
-- Network security community for best practices
-- Open source contributors and testers
-
-## 📚 Additional Resources
-
-### Documentation
-- [Wiki Pages](../../wiki) - Detailed feature documentation
-- [API Reference](docs/api.md) - For developers extending the tool
-- [Troubleshooting Guide](docs/troubleshooting.md) - Common issues and solutions
-
-### Related Tools
-- [Nmap](https://nmap.org/) - Network discovery and security auditing
-- [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
-- [Netcat](https://nc110.sourceforge.io/) - Network utility for reading/writing network connections
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you find it useful! ⭐**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/netscope-ultimate.svg?style=social&label=Star)](../../stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/netscope-ultimate.svg?style=social&label=Fork)](../../network)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/netscope-ultimate.svg?style=social&label=Watch)](../../watchers)
-
-</div>
